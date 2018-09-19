@@ -2,6 +2,8 @@
 function sayHello(name) {
   // TODO: return a greeting string that greets
   // the person by name, e.g. "Hello, Emily!"
+  var name
+  return "Greetings and Salutations " + name
 }
 
 function sayHelloEverybody(threeNames) {
