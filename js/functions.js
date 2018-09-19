@@ -11,11 +11,7 @@ function sayHelloEverybody(threeNames) {
   // all three people in the threeNames array
   // e.g. "Hello, Emily, MaryClare, and Taurin!"
   // NOTE: inputs should be an array with exactly three items
-  var threeNames;
-  var name1;
-  var name2;
-  var name3;
-  arr = threeNames[name1, name2, name3];
+  var threeNames = ['Emily', ' Carmen', ' and Steve'];
   return "Greetings " + threeNames;
 }
 
@@ -49,6 +45,8 @@ function isOdd(n) {
   // HINT: the expression "Boolean(0)" is false, "Boolean(1)"" is true
   // DOUBLE HINT: Try using the modulus operator (%)
   var n
+  var div
+  var state
 
 }
 
@@ -81,6 +79,8 @@ function incrementCounter() {
   // and then calls showCounter to update the interface with the new value.
   // Test your code by opening the developer console and calling incrementCounter.
   // The displayed answer for this question should increase by 1!
+  return counter + 1
+  showCounter();
 }
 function showCounter() {
   // updates the counter element with the latest value
