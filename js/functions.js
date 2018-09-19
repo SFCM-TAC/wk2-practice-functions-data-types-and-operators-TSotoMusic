@@ -19,7 +19,7 @@ function getClasses() {
   // TODO: return an array with a list of strings
   // naming the classes you are taking this semester
   var schedule;
-  schedule = ["Chorus, ", "Advanced Analysis, ", "Intro to Conducting, ", "Film Music, ", "Intro to Computer Science, ", "Game Audio, "];
+  schedule = ["Chorus", " Advanced Analysis", " Intro to Conducting", " Film Music", " Intro to Computer Science", " Game Audio"];
   return schedule
 }
 
@@ -45,8 +45,9 @@ function isOdd(n) {
   // HINT: the expression "Boolean(0)" is false, "Boolean(1)"" is true
   // DOUBLE HINT: Try using the modulus operator (%)
   var n
-  var div
-  var state
+  var div = n % 2
+
+
 
 }
 
@@ -79,7 +80,7 @@ function incrementCounter() {
   // and then calls showCounter to update the interface with the new value.
   // Test your code by opening the developer console and calling incrementCounter.
   // The displayed answer for this question should increase by 1!
-  return counter + 1
+  return counter ++ 
   showCounter();
 }
 function showCounter() {
