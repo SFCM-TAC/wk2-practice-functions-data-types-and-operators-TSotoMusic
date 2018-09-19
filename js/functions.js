@@ -3,7 +3,7 @@ function sayHello(name) {
   // TODO: return a greeting string that greets
   // the person by name, e.g. "Hello, Emily!"
   var name
-  return "Greetings and Salutations " + name
+  return "Greetings and Salutations " + name;
 }
 
 function sayHelloEverybody(threeNames) {
@@ -11,11 +11,20 @@ function sayHelloEverybody(threeNames) {
   // all three people in the threeNames array
   // e.g. "Hello, Emily, MaryClare, and Taurin!"
   // NOTE: inputs should be an array with exactly three items
+  var threeNames;
+  var name1;
+  var name2;
+  var name3;
+  arr = threeNames[name1, name2, name3];
+  return "Greetings " + threeNames;
 }
 
 function getClasses() {
   // TODO: return an array with a list of strings
   // naming the classes you are taking this semester
+  var schedule;
+  schedule = ["Chorus, ", "Advanced Analysis, ", "Intro to Conducting, ", "Film Music, ", "Intro to Computer Science, ", "Game Audio, "];
+  return schedule
 }
 
 function labelOrder(fiveNumbers) {
@@ -29,12 +38,18 @@ function labelOrder(fiveNumbers) {
 function calculateVolume(w, l, h) {
   // TODO: given a room's width, length, and height
   // write a function that returns the volume
+  var w
+  var l
+  var h
+  return w + l + h;
 }
 
 function isOdd(n) {
   // TODO: given a number, return true if it is odd, false if it is even
   // HINT: the expression "Boolean(0)" is false, "Boolean(1)"" is true
   // DOUBLE HINT: Try using the modulus operator (%)
+  var n
+
 }
 
 // ** CART PRICES ** //
@@ -45,6 +60,10 @@ function getSalePrice(originalPrice) {
   // a price with the saleAmount discount applied
   // e.g. if originalPrice is 4.00, your function should return 3.00.
   // (Don't worry about rounding to the correct number of decimal places)
+  var originalPrice;
+  var amountOff;
+  amountOff = originalPrice * saleAmount;
+  return originalPrice - amountOff;
 }
 
 function getSalePrices(threeOriginalPrices) {
