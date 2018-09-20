@@ -25,12 +25,20 @@ function getClasses() {
   return schedule
 }
 
-function labelOrder(fiveNumbers) {
+function labelOrder(a, b, c, d, e) {
   // TODO: Given an array with five numbers, return a new array
   // of strings that have labels for the ordering.
   // e.g. if fiveNumbers is [1,2,3,4,5] your function should return:
   // ["first: 1", "second: 2", "third: 3", "fourth: 4", "fifth: 5"]
   // NOTE: inputs should be an array with exactly five items
+  var fiveNumbers = [a, b, c, d, e];
+  var fiveNumber = [f, g, h, i, j];
+  fiveNumber[0] = 'First: ' + fiveNumbers[0];
+  fiveNumber[1] = 'Second: ' + fiveNumbers[1];
+  fiveNumber[2] = 'Third: ' + fiveNumbers[2];
+  fiveNumber[3] = 'Fourth: ' + fiveNumbers[3];
+  fiveNumber[4] = 'Fifth: ' + fiveNumbers[4];
+  return fiveNumber
 }
 
 function calculateVolume(w, l, h) {
@@ -74,11 +82,16 @@ function getSalePrice(originalPrice) {
 }
 
 
-function getSalePrices(threeOriginalPrices) {
+function getSalePrices(price1, price2, price3) {
   // TODO: given an array of prices for three items in a cart,
   // return a new array with the saleAmount discount applied to each.
   // TIP: see if you can reuse the getSalePrice function that you just wrote!
   // NOTE: inputs should be an array with exactly three items
+  var price1;
+  var price2;
+  var price3;
+  var threeOriginalPrices = [getSalePrice(price1), " "+getSalePrice(price2), " "+getSalePrice(price3)];
+  return threeOriginalPrices
 }
 
 
