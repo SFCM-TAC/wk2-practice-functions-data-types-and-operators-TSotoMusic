@@ -32,6 +32,7 @@ function labelOrder(a, b, c, d, e) {
   // ["first: 1", "second: 2", "third: 3", "fourth: 4", "fifth: 5"]
   // NOTE: inputs should be an array with exactly five items
   var fiveNumbers = [a, b, c, d, e];
+  var f, g, h, i, j
   var fiveNumber = [f, g, h, i, j];
   fiveNumber[0] = 'First: ' + fiveNumbers[0];
   fiveNumber[1] = 'Second: ' + fiveNumbers[1];
