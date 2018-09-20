@@ -6,6 +6,7 @@ function sayHello(name) {
   return "Greetings and Salutations " + name;
 }
 
+
 function sayHelloEverybody(threeNames) {
   // TODO: return a greeting string that greets
   // all three people in the threeNames array
@@ -14,6 +15,7 @@ function sayHelloEverybody(threeNames) {
   var threeNames = ['Emily', ' Carmen', ' and Steve'];
   return "Greetings " + threeNames;
 }
+
 
 function getClasses() {
   // TODO: return an array with a list of strings
@@ -40,16 +42,22 @@ function calculateVolume(w, l, h) {
   return w + l + h;
 }
 
+
 function isOdd(n) {
   // TODO: given a number, return true if it is odd, false if it is even
   // HINT: the expression "Boolean(0)" is false, "Boolean(1)"" is true
   // DOUBLE HINT: Try using the modulus operator (%)
   var n
   var div = n % 2
-
-
-
+  var state
+  if (div == 0) {
+    state = "False";
+  } else if (div != 0) {
+    state = "True";
+  }
+return state
 }
+
 
 // ** CART PRICES ** //
 
@@ -65,12 +73,14 @@ function getSalePrice(originalPrice) {
   return originalPrice - amountOff;
 }
 
+
 function getSalePrices(threeOriginalPrices) {
   // TODO: given an array of prices for three items in a cart,
   // return a new array with the saleAmount discount applied to each.
   // TIP: see if you can reuse the getSalePrice function that you just wrote!
   // NOTE: inputs should be an array with exactly three items
 }
+
 
  // ** COUNTING ** //
 
@@ -80,9 +90,11 @@ function incrementCounter() {
   // and then calls showCounter to update the interface with the new value.
   // Test your code by opening the developer console and calling incrementCounter.
   // The displayed answer for this question should increase by 1!
-  return counter ++ 
+  return counter ++
   showCounter();
 }
+
+
 function showCounter() {
   // updates the counter element with the latest value
   document.getElementById('counter').textContent = counter;
